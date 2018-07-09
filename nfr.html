@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>NFR</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Blog Stylesheet File -->
+  <link href="css/blog.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <!-- =======================================================
+    Theme Name: Folio
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav-subpage" class="subpage-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+		<a href="index.html"><ion-icon name="home" size="large"></ion-icon></a>
+          <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <!--<li><a href="index.html#home" class="smoothScroll">Home</a></li>-->
+          <li><a href="index.html#about" class="smoothScroll">About</a></li>
+          <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="index.html#blog" class="smoothScroll">Blog</a></li>
+          <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+  <!-- start section main content -->
+  <div class="main-content paddsection">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+            <div class="container-main single-main">
+              <div class="col-md-12">
+                <div class="block-main mb-30">
+                  <img src="images/nfr_funny.jpg" class="img-responsive" alt="reviews2">
+                  <div class="content-main single-post padDiv">
+                    <div class="journal-txt">
+                      <h4><a href="#">Architectural Myopia: Non-Functional Requirements</a></h4>
+                    </div>
+                    <div class="post-meta">
+                      <ul class="list-unstyled mb-0">
+                        <li class="author">by:<a href="#">Sujeeth</a></li>
+                        <li class="date">date:<a href="#">April 10, 2018</a></li>
+                      </ul>
+                    </div>
+					
+                    <p class="mb-30">This paper [1] provides revealing insights as to how non-functional requirements (NFRs) are (or
+not) elicited, documented and validated in the software industry and how they impact
+architectural decisions. It also points out glaring differences in the impetus associated to NFRs
+based on system criticality and the cost to benefit ratio. The paper also reveals challenges the
+industry generally faces in dealing with NFRs and classifies them based on standards already
+ascertained by the engineering community (ISO/ IEC 25000). Although the study was limited to
+companies in Spain, it provides a broad spectrum of organizations that are analogous to the
+global software companies. The article has established the scope for more empirical studies to
+be carried out with NFRs and their impact on architectural decisions. </p>
+                    <p class="mb-30">The current study was based on a two part survey that dealt with NFRs in the requirements
+engineering phase and then its influences on architecture. It essentially consisted of curated
+interview notes and broad discussions with industry practitioners. Although these interviews do
+provide revealing insights into industry practices, they may still be devoid of essential statistical
+evidence. The notions about NFR management in the article could be backed by evidences like
+bug reports and user story backlog analysis, provided that the companies agree to share their
+data in an anonymized setting. It would also be beneficial to classify the software projects based
+on their criticality in terms of safety and scale to ascertain the impetus provided to NFRs and how
+it was reflected in the architecture. These could also be extended to other quality parameters.</p>
+                    <p class="mb-30">CHALLENGES:</br>
+Cost to Benefit Perception of documentation:
+Practitioners generally do not document NFRs efficiently as they do not see a clear benefit in
+doing so. This is especially true in projects that cater to non-critical systems.</br>
+Mitigation Strategy:</br>
+A less rigorous approach to documenting NFRs in the form of concise Volere templates or natural
+language documentation can be created as an aid to future artifacts. These are less resource
+intensive but extremely useful when serving activities like refactoring or compartmentalizing the
+code base. Also many of the quality attribute requirements can be monetized in terms of
+additional features if they are unique to a software product. For example, exclusive highly
+available infrastructure is monetized by Amazon Web Services and has a different pricing from
+standard deployment facilities.</p>
+                  <p class="mb-30">Lack of Validation for NFRs</br>
+Many non- critical software projects do not validate their quality requirements and many do not
+have an appropriate quality metrics to ascertain the efficacy of their systems. They also forego
+important quality attributes like security.</br>
+Mitigation Strategy:</br>
+The authors observed that shoddy documentation practices often led to sub-par validation
+schemes as well. While documenting quality attributes, appropriate and clear metrics must be
+decided upon to ensure the system is working efficiently on all fronts. Automated tests can be
+part of the deployment phase to ensure regressive validation.</br>
+Terminology Issues</br>
+The researchers observed that many of the respondents used incorrect terminology or overused
+certain quality attributes pertaining to NFRs which might be a potential risk if the decision makers
+are not completely aware of the wide spectrum of issues that a product might be vulnerable to
+that are based on quality issues.</br>
+Mitigation Strategy:</br>
+Architects can use ISO/ IEC 25000 standard to clarify terminology and understand more about other
+quality attributes. Organizations must provide training for their technical leaders with standard policies
+regarding architectural designs or seek outside help for expertise. </br>
+New Research Article:</br>
+I believe this paper [2] provides a more precise and verifiable heuristic for software architectural
+decision making based on non-functional quality requirements. It provides variables for resource
+availability and cost and then calculates operational stages needed to achieve each soft goals
+based on the NFR framework. The graph allows for easy approximation of tasks and also a scheme
+to prioritize quality requirements. It also provides for impact assessments based on architectural
+tradeoffs. This can potentially help architects to rely on a more concrete simulation than just
+their intuition or experience.
+ </p>
+ 
+ <p class="mb-30">References:</br>
+[1] Ameller, D., Ayala, C., Cabot, J., & Franch, X. (2013). Non-functional Requirements in
+Architectural Decision Making. IEEE Software, 30(2), 61-67. doi:10.1109/ms.2012.176
+[2] Affleck, A., A. Krishna, and N.R. Achuthan, Optimal Selection of Operationalizations for NonFunctional
+Requirements, in 9th Asia-Pacific Conf. on Conceptual Modelling. 2013: Adelaide,
+Australia. p. 69-78.
+http://crpit.com/confpapers/CRPITV143Affleck.pdf</p>
+				  </div>
+                </div>
+              </div>
+            
+              
+  <!--  </div> -->
+  <!-- start section main content -->
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      
+
+      <p>&copy; Copyrights Sujeeth. All rights reserved.</p>
+
+      
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
